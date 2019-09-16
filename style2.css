@@ -1,0 +1,16 @@
+table,th,td { 
+    border: 1px solid black; 
+    border-collapse: collapse;
+}
+tr:nth-child(even) {background-color:#b82e8a;
+color:white; }
+tr:nth-child(odd) {background-color:#ff0055;}
+th{ background-color: #e6e6e6;}
+td{ width:150px;}
+
+th{text-align:left;}
+td.center,th.center{text-align: center;}
+td.höger,th.höger{text-align:right;}
+
+
+
